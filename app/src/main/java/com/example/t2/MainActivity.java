@@ -38,9 +38,10 @@ public class MainActivity extends AppCompatActivity {
                 width = doodleView.getWidth();
                 height = doodleView.getHeight();
 
-                TextView i = addText(doodleView,"I", scaleX(0.5f), scaleY(0.5f), 50, Color.rgb(145,123,76));
-                ImageView heart = addImage(doodleView, R.drawable.heart, scaleX(0.5f), scaleY(0.625f), (int)(width*0.1), (int)(height*0.1));
-                TextView uw = addText(doodleView,"UW", scaleX(0.5f), scaleY(0.75f), 50, Color.rgb(51,0,111));
+                TextView uw = addText(doodleView,"UW", scaleX(0.4f), scaleY(0.2f), 50, Color.rgb(145,123,76));
+                TextView appDev = addText(doodleView,"AppDev", scaleX(0.3f), scaleY(0.3f), 50, Color.rgb(51,0,111));
+                ImageView heart = addImage(doodleView, R.drawable.heart, scaleX(0.3f), scaleY(0.5f), (int)(width*0.4), (int)(height*0.4));
+
             }
         });
 
